@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>OnlyOne</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  	<!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Media query for narrow browser width -->
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
+
+    <!-- Media query for medium browser width -->
+    <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="css/tablet.css">
+
+    <!-- Media query for full browser width -->
+    <link rel="stylesheet" media="only screen and (min-width: 961px)" href="css/desktop.css">
+
+    <!-- Prevent smartphones from scaling pages down -->
+    <meta name="viewport" content="initial-scale=1">
+  </head>
+<body>
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-12 noPadding">
+  				<!-- NAV START -->
+  				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  				  <div class="container-fluid">
+  				    <a class="navbar-brand" href="index.html">OnlyOne</a>
+  				    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  				      <span class="navbar-toggler-icon"></span>
+  				    </button>
+  				    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  				      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+  				      </ul>
+  				      <form class="d-flex">
+                  <a href="issues.html">
+  				          <button class="btn btn-link" type="button" style="color:#914049;">Issues</button>
+                  </a>
+  								<a href="donate.html">
+  				        	<button class="btn btn-outline-success" type="button">DONATE</button>
+  								</a>
+  				      </form>
+  				    </div>
+  				  </div>
+  				</nav>
+  			</div>
+  		</div>
+      <div class="row">
+        <div class="col-md-12 noPadding">
+          <!-- CAROUSEL START -->
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                <img src="images/mt.Fuji.jpg" class="d-block w-100" alt="Baby clouds forming over Mount Fuji in Japan">
+                <div class="carousel-caption d-none d-md-block text">
+                  <h5>The Earth</h5>
+                  <p>The blue planet. Our home. Now, it is under threat, from us.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/fossil_Power_plant.jpg" class="d-block w-100" alt="Fossil Fuel Emitting Power Plant">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Nonrenewable Energy</h5>
+                  <p>Nonrenewable energy, like coal and oil, still poses a major threat to our planet's health.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/trashPile.jpg" class="d-block w-100" alt="Trash Pile">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Waste</h5>
+                  <p>2.01 billion tonnes of trash are produced each year, much of it ending up in landfills, in the oceans, or burned and polluting the Earth's vairous ecosystems.</p>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/hurricanes.jpg" class="d-block w-100" alt="Hurricanes and natural disasters">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Natural Disasters</h5>
+                  <p>As climate change worsens, natural disasters (i.e., hurricanes, wildfires, droughts, tornados) will worsen, people more homes, people, and animals at risk.</p>
+                </div>
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row marginTopBottom">
+        <div class="col-md-4 d-flex justify-content-center">
+          <!-- Card Start -->
+          <div class="card" style="width: 24rem;">
+            <img src="images/fossil_Power_plant.jpg" class="card-img-top" alt="Forest Fire">
+            <div class="card-body">
+              <h5 class="card-title">Nonrenewable Energy</h5>
+              <p class="card-text"> While thee has been signfnciant talk and aggreements on switch to green/low-carbon energy, we are still far from that. Nonrenewable energy is still used heavily. 80% of the total amount of global energy comes from fossil fuels.</p>
+              <a href="issues.html" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+          <!-- Card Ends -->
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+          <!-- Card Start -->
+          <div class="card" style="width: 24rem;">
+            <img src="images/waste2.jpg" class="card-img-top" alt="Trash cubes stacked ontop of each other">
+            <div class="card-body">
+              <h5 class="card-title">Waste</h5>
+              <p class="card-text">Proper and clean waste management is still an issue. Nearly 45% of waste is still dumped in some type of landfill. Only about 19% of waste is actually recycled and reused. This continues to put our lives and the lives of other organisms at risk from contamination or air pollution, as waste in landfills release methane.</p>
+              <a href="issues.html" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+          <!-- Card Ends -->
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+          <!-- Card Start -->
+          <div class="card" style="width: 24rem;">
+            <img src="images/hurricane.webp" class="card-img-top" alt="Trash Beach">
+            <div class="card-body">
+              <h5 class="card-title">Natural Disasters</h5>
+              <p class="card-text">This the most important effect of the climate change that we must not forget. As the Earth's surface temperature rises, it will result in more dangerous droughts, flooding, forest fires, tornados, and hurricanes. <b> All life </b> will be at risk. </p>
+              <a href="issues.html" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+          <!-- Card Ends -->
+        </div>
+      </div>
+      <div class="row">
+  			<div class="col-md-12 noPadding">
+  				<iframe width=100% height="600" src="https://www.youtube.com/embed/LA_BcaLV7Yc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  			</div>
+  		</div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

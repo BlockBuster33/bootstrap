@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'goldman_sansbold';
+    src: url('../Fonts/goldmansans_bd-webfont.woff2') format('woff2'),
+         url('../Fonts/goldmansans_bd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'goldman_sansbold_italic';
+    src: url('../Fonts/goldmansans_bdit-webfont.woff2') format('woff2'),
+         url('../Fonts/goldmansans_bdit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'goldman_sansblack';
+    src: url('../Fonts/goldmansans_blk-webfont.woff2') format('woff2'),
+         url('../Fonts/goldmansans_blk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'goldman_sansitalic';
+    src: url('../Fonts/goldmansans_it-webfont.woff2') format('woff2'),
+         url('../Fonts/goldmansans_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'goldman_sanslight';
+    src: url('../Fonts/goldmansans_lt-webfont.woff2') format('woff2'),
+         url('../Fonts/goldmansans_lt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'goldman_sansmedium';
+    src: url('../Fonts/goldmansans_md-webfont.woff2') format('woff2'),
+         url('../Fonts/goldmansans_md-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'goldman_sansmedium_italic';
+    src: url('../Fonts/goldmansans_mdit-webfont.woff2') format('woff2'),
+         url('../Fonts/goldmansans_mdit-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'goldman_sansregular';
+    src: url('../Fonts/goldmansans_rg-webfont.woff2') format('woff2'),
+         url('../Fonts/goldmansans_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'goldman_sansthin';
+    src: url('../Fonts/goldmansans_th-webfont.woff2') format('woff2'),
+         url('../Fonts/goldmansans_th-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'goldman_sans_condensedbold';
+    src: url('../Fonts/goldmansanscd_bd-webfont.woff2') format('woff2'),
+         url('../Fonts/goldmansanscd_bd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'goldman_sans_condensedregular';
+    src: url('../Fonts/goldmansanscd_rg-webfont.woff2') format('woff2'),
+         url('../Fonts/goldmansanscd_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html{
+  font-family: 'goldman_sansregular';
+}
+
+body{
+	background : white;
+}
+
+.noPadding{
+	padding : 0px;
+}
+
+.navbar{
+  background-color: #914049;
+}
+
+.btn-link{
+  color: #914049;
+}
+
+.btn-outline-success{
+  color: #739240;
+  border-color: #739240;
+}
+
+.centerCard{
+	display : flex;
+}
+
+.marginTopBottom{
+	margin-top : 50px;
+	margin-bottom : 50px;
+}
+
+.dollarBtn{
+	width : 100px;
+	margin : 10px;
+}
+
+.donatebtn{
+	width : 100%;
+}
+
+.btn-success{
+  background-color: #739240;
+}
+
+.footer{
+	min-height : 30vh;
+}
+
+.socialMedia{
+	display : flex;
+	flex-direction : row;
+	justify-content: center;
+	align-items: center;
+}
+
+.socialMedia i{
+		font-size : 30pt;
+		margin : 20px;
+}
+
+.mailingList{
+	display : flex;
+	flex-direction : column;
+	justify-content: center;
+	align-items: center;
+}
+
+.mailingList h4{
+	align-self : flex-start;
+}
+
+.btn-primary{
+  background-color: #7098FA;
+}
+
+.col-md-12,
+.col-md-4,
+.col-md-6{
+	border : solid 0px black;
+}
